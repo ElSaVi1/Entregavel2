@@ -1,0 +1,166 @@
+.pointer{
+    cursor: pointer;
+}
+
+.gradient{
+    background: linear-gradient(0deg, #3bc7ee,#0086B3, #3bc7ee);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/*Aqui é referente ao cabeça-lho*/
+.header{
+    background-color: #33CCFF;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;         
+    -webkit-text-stroke-width: 1px; /* Espessura do contorno */
+    -webkit-text-stroke-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    color: transparent;
+    background-color: #33CCFF;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -10px;
+    width: 100%;
+    height: 120px;
+    line-height: 0.1;
+}
+
+/*Aqui é referente à barra de navegação com flex e hover*/
+.Info{
+    background-color: #0086B3;
+    color: white;
+    padding: 8px;
+    text-align: top;
+    justify-content: space-around;
+    margin-top: -60px;
+    height: 49px;
+    margin-top: -19px;
+    margin-left: -10px;
+    width: 100.55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Item{
+    font-family: Michroma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    background-color: transparent; 
+    color: White;
+    transition: 0.3s; 
+    cursor: pointer;
+    padding: 0px;
+}
+
+.Item:hover {
+    color: #FF8C00;            
+}
+
+/*Aqui é referente ao corpo da página*/
+.body{
+    background-color: #D3D3D3;
+}
+
+/*Aqui é referente ao rodapé*/
+.footer{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    width: 100.3%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para a seção de produtos usando grid*/
+.Main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;          
+    padding: 20px;
+    width: 90%;          
+    margin: 0 auto;      
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;        
+    text-align: center;
+    justify-content: bottom;
+}
+
+
+.Card{
+    font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+    
+    display: flex;
+    flex-direction: column; 
+    align-items: center;        
+    text-align: center;
+    justify-content: bottom;         
+    border-radius: 20px;
+
+    padding: 20px;
+    width: 200px;
+    height: 90px;
+    margin: 10px auto;
+}
+
+.price{
+    font-family: "Chewy", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-style: italic;
+    font-size: 30px;
+    color: #018DBA;
+    margin-top: -40px;
+}
+
+/*Botão de comprar com hover*/
+.buy{
+    font-family: Michroma, sans-serif;
+    font-weight: Bold;
+    font-style: italic;
+    font-size: 15px;
+
+    Background-color: #018DBA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #ffffff;
+    margin-top: -30px;
+    height: 50px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.buy:hover{
+    color: #FF8C00;
+    transition: 0.3s; 
+}
