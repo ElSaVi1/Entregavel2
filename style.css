@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'Play Pretend'; /* O nome que você escolher para usar no código */
+    src: url('src/Play\ Pretend.otf') format('truetype'); /* Caminho exato do arquivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansita One'; /* O nome que você escolher para usar no código */
+    src: url('src/SansitaOne.ttf') format('truetype'); /* Caminho exato do arquivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inlanders'; /* O nome que você escolher para usar no código */
+    src: url('src/Inlanders\ Demo.otf') format('truetype'); /* Caminho exato do arquivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 .pointer{
     cursor: pointer;
 }
@@ -11,13 +34,12 @@
 /*Aqui é referente ao cabeça-lho*/
 .header{
     background-color: #33CCFF;
-    font-family: "Jaro", sans-serif;
+    font-family: "Inlanders", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;         
-    -webkit-text-stroke-width: 1px; /* Espessura do contorno */
+    -webkit-text-stroke-width: 3px; /* Espessura do contorno */
     -webkit-text-stroke-color: white;
-    font-weight: bold;
     font-size: 30px;
     color: transparent;
     background-color: #33CCFF;
@@ -51,8 +73,8 @@
 }
 
 .Item{
-    font-family: Michroma, sans-serif;
-    font-weight: bold;
+    font-family: "Play Pretend", sans-serif;
+    font-weight: Normal ;
     font-size: 20px;
     font-style: italic;
     background-color: transparent; 
@@ -73,6 +95,7 @@
 
 /*Aqui é referente ao rodapé*/
 .footer{
+    font-family: "Markazi Text", serif;
     background-color: black;
     color: white;
     font-size: 30px;
@@ -114,7 +137,7 @@
 
 
 .Card{
-    font-family: Arial, sans-serif;
+    font-family: "Sansita", sans-serif;
     background-color: #F8F9FA;
     
     display: flex;
@@ -127,12 +150,12 @@
     padding: 20px;
     width: 200px;
     height: 90px;
-    margin: 10px auto;
+    margin: 13px auto;
 }
 
 .price{
-    font-family: "Chewy", system-ui;
-    font-weight: bold;
+    font-family: "Sansita One", system-ui;
+    font-weight: Normal;
     font-style: normal;
     font-style: italic;
     font-size: 30px;
@@ -142,9 +165,9 @@
 
 /*Botão de comprar com hover*/
 .buy{
-    font-family: Michroma, sans-serif;
-    font-weight: Bold;
-    font-style: italic;
+    font-family: "Sansita One", sans-serif;
+    font-weight: normal;
+    font-style: normal;
     font-size: 15px;
 
     Background-color: #018DBA;
